@@ -44,7 +44,7 @@ public class Change {
         Scanner scan = new Scanner(System.in);        
         System.out.println("How much money do you have in total?");
         remainder = (int) (scan.nextDouble() * oneInPen);
-        scan.close();
+        scan.close(); 
         
         //calculate how many tens there are, and remove them from remainder
         tens = remainder / tenInPen;
