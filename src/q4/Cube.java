@@ -30,7 +30,7 @@ public class Cube {
         Scanner scan = new Scanner(System.in);
         System.out.println("What is the cubes side length? (Integer value)");
         side = scan.nextInt();
-        
+        scan.close(); 
         //calculate volume and surface area.
         volume = side * side * side;
         surfaceArea = side * side * cubeSides;

@@ -13,6 +13,11 @@ public class PieChart extends JFrame {
 
     
     /**
+     * 
+     */
+    private static final long serialVersionUID = -5890104607890453878L;
+
+    /**
      * <p>The main method.</p>
      * 
      * @param args not used.

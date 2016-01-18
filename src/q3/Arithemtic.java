@@ -34,7 +34,7 @@ public class Arithemtic {
         //input second number      
         System.out.println("What is the second number?");
         secondNumber = scan.nextDouble();
-        
+        scan.close(); 
         //calculate sum, difference, quotient, product
         sum = firstNumber + secondNumber;
         difference = firstNumber - secondNumber;

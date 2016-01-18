@@ -13,6 +13,11 @@ import javax.swing.JPanel;
  */
 class PieChartPanel extends JPanel {
 
+    /**
+     * 
+     */
+    private static final long serialVersionUID = 7738950817773443623L;
+    
     /**<p>Arc 1.</p>*/
     private final Arc arc1;
     /**<p>Arc 2.</p>*/

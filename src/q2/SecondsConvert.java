@@ -31,7 +31,7 @@ public class SecondsConvert {
         Scanner scan = new Scanner(System.in);
         System.out.println("How many seconds are there?");
         allSeconds = scan.nextInt();
-        
+        scan.close(); 
         //calculate hours, minutes, seconds
         hours = allSeconds / secInH;
         minutes = (allSeconds % secInH) / secInMin;
